@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="https://google.com/search">
+        <input type="text" name="nome" value="Nome"/> <br />
+        <input type="hidden" name="senha" value="Senha" /> <br />
+        <input type="email" name="e-mail" placeholder="E-mail" /> <br />
+        <input type="search" name="busca" placeholder="Busca"> <br />
+        <input type="telefone" name="tel" placeholder="(xx) xxxxx-xxxx" /> <br />
+        <input type="number" name="idade" placeholder="Idade" /> <br />
+        <input type="url" name="linkedin" placeholder="Linkedin URL" /> <br />
+        <input type="range" name="urgência" min="0" max="10" step="0.1" / > <br />
+        <input type="checkbox" name="dia-da-semana" value="2" /> Segunda-feira <br />
+        <input type="checkbox" name="dia-da-semana" value="4" /> Quarta-feira <br />
+        <input type="checkbox" name="dia-da-semana" value="6" /> Sexta-feira <br />
+        <input type="radio" name="horário" value="manhã" /> Manhã <br />
+        <input type="radio" name="horário" value="tarde" /> Tarde <br />
+        <input type="radio" name="horário" value="noite" /> Noite <br />
+        <textarea name="mensagem" cols="50" rows="10"></textarea> <br />
+    </form>
+    <header>Digite a Cidade:</header>
+    <form>
+        <input list="cidade" name="cidade" />
+        <datalist id="cidade">
+            <option value="Blumenau">Blumenau</option>
+            <option value="Florianópolis">Florianópolis</option>
+            <option value="Joinville">Joinville</option>
+        </datalist><br />
+        <button type="button">Outra Ação</button>
+        <button type="reset">Limpar</button><br>
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+</body>
+</html>

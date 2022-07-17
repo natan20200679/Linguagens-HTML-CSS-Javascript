@@ -1,0 +1,55 @@
+html{
+    background-color: aqua;
+    background-image: url("");
+    background-repeat: repeat;
+    background-position: top left;
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    /* @font-face {
+        font-family: ;
+        src: url();
+    } */
+}
+main h1{
+    color: red;
+}
+main p{
+    text-indent: 2rem;
+    text-align: start;
+}
+h2{
+    color: green;
+}
+h2#título-primeira-aula{
+    text-decoration: underline;
+}
+p{
+    color: yellowgreen;
+    text-transform: capitalize;
+}
+a:active{
+    /* color: green; */
+    cursor: pointer;
+}
+.título-aula{
+    text-decoration: underline;
+}
+.texto-azul{
+    color: blue;
+}
+.texto-vermelho{
+    color: red;
+}
+/* #título-primeira-aula{
+    text-decoration: none;
+} */
+#título-segunda-aula{
+    color: brown;
+}
+.texto-vermelho .comentário{
+    color: blue;
+}
+.texto-vermelho.comentário{
+    color: green;
+}

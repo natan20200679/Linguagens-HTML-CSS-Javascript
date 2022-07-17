@@ -1,0 +1,35 @@
+figure{
+    width: 220px;
+    height: 200px;
+    margin-left: 10px;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+}
+.Dados-Pessoais{
+    margin-bottom: 15px;
+}
+footer{
+    font-size: 13px;
+}
+table,tr,th,td{
+    border: black solid 1px;
+    width: 500px;
+    font-size: 17px;
+    text-align: center;
+}
+td{
+    width:150px;
+    height:30px;
+}
+th{
+    background-color:green;
+    color: white; 
+}
+.footer-final{
+    display: block;
+    margin-top: 20px;
+}
